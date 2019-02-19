@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotel Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+        <h3>Are you from inside the US? Or outside the US?</h3>
+
+        <label for="inusa">Inside: </label>
+        <input type="radio" name="loc" id="inusa" value="inside"><!--The buttons are linked because they have the same name-->
+
+        <label for="outusa">Outside: </label>
+        <input type="radio" name="loc" id="outusa" value="outside">
+
+        <h2>How was your service?</h2>
+
+        <select name="stars">
+                <option value="Great">3</option>
+                <option value="Okay">2</option>
+                <option value="Bad">1</option>
+        </select>
+
+        <h2>Any other feedback?</h2>
+
+        <textarea name="mytext" cols="80" rows="8"></textarea>
+        <br>
+        <input type="submit" value="SUBMIT">
+
+    </form>
+</body>
+</html>
