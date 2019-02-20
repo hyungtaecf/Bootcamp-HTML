@@ -12,31 +12,31 @@
 
 <body>
     <h1>Course Sign Up Page</h1>
+    <p>Please Note: First Name, Last Name, Password and Email are required</p>
     <form action="thankyou.html" method="get">
-        <p>Please Note: First Name, Last Name, Password and Email are required</p>
         <p>
-            <label for="firstname">First Name:</label>
-            <input type="text" name="firstname" id="firstname" placeholder="First Name">
+            <label for="fn">First Name:</label>
+            <input type="text" name="fn" id="fn" placeholder="First Name" required>
 
-            <label for="lastname">Last Name:</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+            <label for="ln">Last Name:</label>
+            <input type="text" name="ln" id="ln" placeholder="Last Name"required >
         </p>
         <p>
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email" placeholder="name@email.com">
+            <label for="mail">Email: </label>
+            <input type="email" name="mail" id="mail" placeholder="name@email.com" required>
 
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
+            <label for="pw">Password:</label>
+            <input type="password" name="pw" id="pw" required>
         </p>
 
 
         <p>Are you over the age of 18?</p>
         <p>
-            <label for="over18">Yes:</label>
-            <input type="radio" name="age" id="age">
+            <label for="y">Yes:</label>
+            <input type="radio" name="over18" id="over18">
 
-            <label for="below18">No:</label>
-            <input type="radio" name="age" id="age">
+            <label for="n">No:</label>
+            <input type="radio" name="over18" id="over18">
         </p>
 
         <p>Do you have a Credit Card or Paypal?</p>
